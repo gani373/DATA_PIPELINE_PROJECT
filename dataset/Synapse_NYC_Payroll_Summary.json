@@ -1,0 +1,24 @@
+{
+	"name": "Synapse_NYC_Payroll_Summary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "syn_AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "dirstaging",
+				"fileSystem": "mydlsfs20230413"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

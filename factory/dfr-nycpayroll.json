@@ -1,0 +1,9 @@
+{
+	"name": "dfr-nycpayroll",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cc4334ed-fb6e-461b-8f8f-24be06d06b37",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
